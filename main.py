@@ -50,7 +50,7 @@ class mpy3_app:
                 )
                 self.print_display()
                 time.sleep(1)
-        print('')
+            print('')
 
     def print_display(self):
         width = os.get_terminal_size().columns
