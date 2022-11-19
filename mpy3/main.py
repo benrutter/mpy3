@@ -39,7 +39,7 @@ class mpy3_app:
 
     def play(self):
         mixer.init()
-         
+
         for i, track in enumerate(self.tracks[self.skip-1:]):
             mixer.music.load(track)
             self.read_track_data(track, i)
@@ -61,6 +61,8 @@ class mpy3_app:
             display += (width - len(display) - 1) * ' '
         print(display, end='\r', flush=True)
 
+def run_app():
+    typer.run(mpy3_app)
 
 if __name__ == '__main__':
-    typer.run(mpy3_app)
+    run_app()

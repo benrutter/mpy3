@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mpy3/main.py
+mpy3.egg-info/PKG-INFO
+mpy3.egg-info/SOURCES.txt
+mpy3.egg-info/dependency_links.txt
+mpy3.egg-info/entry_points.txt
+mpy3.egg-info/requires.txt
+mpy3.egg-info/top_level.txt

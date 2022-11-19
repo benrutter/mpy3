@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mpy3
+Version: 1.0
+Summary: Ultra-minimal command line mp3 player for windows/linux/mac
+Home-page: https://github.com/benrutter/mpy3
+Author: benrutter
+License-File: LICENSE
