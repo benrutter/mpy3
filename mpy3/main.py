@@ -26,6 +26,7 @@ class mpy3_app:
 
     def load_tracks(self, match_string):
         self.tracks = glob.glob(f'**/*{match_string}*.mp3', recursive=True)
+        self.tracks.sort()
 
     def shuffle_tracks(self):
         random.shuffle(self.tracks)

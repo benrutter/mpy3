@@ -1,2 +1,0 @@
-[console_scripts]
-mpy3 = mpy3.main:run_app
